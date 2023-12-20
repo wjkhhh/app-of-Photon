@@ -1,0 +1,24 @@
+{
+  "name": "tauri-01",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@silvia-odwyer/photon": "^0.3.2",
+    "@tauri-apps/api": "^1.5.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.4",
+    "vite-plugin-top-level-await": "^1.3.1",
+    "vite-plugin-wasm": "^3.2.2"
+  }
+}
